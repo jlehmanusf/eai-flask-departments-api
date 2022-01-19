@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-student-api-poc-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-student-api-poc
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: flask-student-api-poc
+        tier: backend
+    spec:
+      containers:
+        - env:
+            - name: BANNER_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: banner-dev-password
+                  key: password
+          name: flask-student-api-poc-node
+          image: jlehmanusf/flask-poc:production
+          ports:
+            - containerPort: 5000

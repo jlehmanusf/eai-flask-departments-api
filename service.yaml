@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-poc-backend
+spec:
+  selector:
+    app: flask-student-api-poc
+  ports:
+    - protocol: 'TCP'
+      port: 5000
+  type: LoadBalancer

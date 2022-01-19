@@ -1,0 +1,42 @@
+# pull official base image
+#FROM --platform=linux/amd64 python:3.10-bullseye 
+FROM python:3.10-bullseye 
+
+# Installing Oracle instant client
+# We should pull zip from internal server
+# Create the tmp directory and download and install instant client
+WORKDIR    /tmp
+RUN        apt-get update && apt-get install -y libaio1 wget unzip \
+    && wget https://download.oracle.com/otn_software/linux/instantclient/instantclient-basiclite-linuxx64.zip \
+    && unzip instantclient-basiclite-linuxx64.zip \
+    && rm -f instantclient-basiclite-linuxx64.zip \
+    && cd /tmp/instantclient* \
+    && rm -f *jdbc* *occi* *mysql* *README *jar uidrvci genezi adrci
+# Create the instantclient permanent home and copy it there
+WORKDIR /opt/oracle/instantclient
+RUN mv /tmp/instantclient*/*.* /opt/oracle/instantclient \
+    && echo /opt/oracle/instantclient > /etc/ld.so.conf.d/oracle-instantclient.conf \
+    && ldconfig \
+    && rm -rf /tmp/instantclient*
+# Create the network/admin folder and put the tnsnames.ora file
+WORKDIR /opt/oracle/instantclient/network/admin
+COPY ./resources/tnsnames.ora .
+
+# set working directory for Python app
+WORKDIR /usr/src/app
+
+# set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# add and install requirements
+COPY ./requirements.txt .
+RUN python -m pip install cx_Oracle --upgrade
+RUN pip install -r requirements.txt
+
+# add app
+COPY . .
+
+# add entrypoint.sh
+COPY ./entrypoint.sh .
+RUN chmod +x /usr/src/app/entrypoint.sh

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: [ '/usr/src/app/entrypoint.sh' ]
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 5004:5000
+    environment:
+      - FLASK_ENV=development
+      - APP_SETTINGS=src.config.DevelopmentConfig
+      - BANNER_PASSWORD=${BANNER_PASSWORD}
+      - BANNER_USERNAME=${BANNER_USERNAME}
+      - BANNER_INSTANCE=${BANNER_INSTANCE}

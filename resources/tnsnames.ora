@@ -1,0 +1,2176 @@
+amdvlpc=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.8)(PORT=1526)))(CONNECT_DATA=(SID=AMDVLPC)))
+amuatuz=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=aut-bandb11.it.usf.edu)(Port=1526)))(CONNECT_DATA=(SID=amuatuz)))
+dvlpc_ro=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP) (Host = aud-banrodb11.it.usf.edu) (Port = 1526))) (CONNECT_DATA = (SID = DVLPC)))
+pprdc_ro=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP) (Host = aud-banrodb11.it.usf.edu) (Port = 1526))) (CONNECT_DATA = (SID = PPRDC)))
+pprdc=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.8)(PORT=1526)))(CONNECT_DATA=(SID=PPRDC)))
+gemspro=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.76.10)(PORT=1526)))(CONNECT_DATA=(SID=GEMSPRO)))
+DVLPARCHZ=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.10)(PORT=1526)))(CONNECT_DATA=(SID=DVLPARCHZ)))
+DVLPC=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.8)(PORT=1526)))(CONNECT_DATA=(SID=DVLPC)))
+DGWDVLPZ=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.11)(PORT=1526)))(CONNECT_DATA=(SID=DGWDVLPZ)))
+DGWTESTZ=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.76.13)(PORT=1526)))(CONNECT_DATA=(SID=DGWTESTZ)))
+PPRDUPGZ=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=aut-bandb11.it.usf.edu)(Port=1526)))(CONNECT_DATA=(Service_name=PPRDUPGZ)))
+PPRDUPGZ_RO=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP) (Host = aut-banrodb11.it.usf.edu) (Port = 1526))) (CONNECT_DATA = (SID = PPRDUPGZ)))
+amuat=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.8)(PORT=1526)))(CONNECT_DATA=(SID=amuat)))
+
+#
+# PeopleSoft Database Images
+#
+gemsabs=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=131.247.240.45)(PORT=1526)))(CONNECT_DATA=(SID=GEMSABS)))
+gems34ip=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.5)(PORT=1526)))(CONNECT_DATA=(SID=GEMS34IP)))
+hr92dm04 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = hcm92-di0004.it.usf.edu)
+     (Port = 1522)))
+   (CONNECT_DATA =
+    (SID = HR92DM04)))
+FGDGWUPZ =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = aet-fgdgwdb16.it.usf.edu)(PORT = 1526)))
+    (CONNECT_DATA =
+      (SERVICE_NAME = FGDGWUPZ)))
+FGPPZ =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = 
+    (PROTOCOL = TCP)
+   (HOST = aep-fgbandb18.it.usf.edu)(PORT = 1526)))
+    (CONNECT_DATA =
+      (SERVICE_NAME = FGPPZ)))
+NFPPZ =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = aep-nfbandb19.it.usf.edu)(PORT = 1526))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = NFPPZ)))
+FASTIP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FASTIP)))
+FASTUA=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fastua)))
+fast40dr=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fast40dr)))
+NCDV =
+  (DESCRIPTION = 
+ (ADDRESS_LIST = 
+ (ADDRESS = (PROTOCOL = TCP)
+  (Host = aed-ncbandb20.it.usf.edu) (Port = 1526)))
+  (CONNECT_DATA = (SID = NCDV)))
+SIGCORP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = USFbanXE.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = SIGCORP)))
+FGDVZ =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = 
+    (PROTOCOL = TCP)
+   (HOST = 10.43.48.23)(PORT = 1526)))
+    (CONNECT_DATA =
+      (SERVICE_NAME = FGDVZ)))
+hr92u028 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = hcm92-upd0028.it.usf.edu)
+     (Port = 1521)))
+   (CONNECT_DATA =
+    (Service_name = HR92U028)))
+hr92u030 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = hcm92-upd0030.it.usf.edu)
+     (Port = 1521)))
+   (CONNECT_DATA =
+    (Service_name = HR92U030)))
+hr92u031 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = hcm92-upd0031.it.usf.edu)
+     (Port = 1521)))
+   (CONNECT_DATA =
+    (Service_name = HR92U031)))
+hr92u032 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = hcm92-upd0032.it.usf.edu)
+     (Port = 1521)))
+   (CONNECT_DATA =
+    (Service_name = HR92U032)))
+ep92u028 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = fscm92-upd0028.it.usf.edu)
+     (Port = 1521)))
+   (CONNECT_DATA =
+    (Service_name = EP92U028)))
+ep92u033 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = fscm92-upd0033.it.usf.edu)
+     (Port = 1521)))
+   (CONNECT_DATA =
+    (Service_name = EP92U033)))
+ep92u030 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = fscm92-upd0030.it.usf.edu)
+     (Port = 1521)))
+   (CONNECT_DATA =
+    (Service_name = EP92U030)))
+EP92U040 =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = aup-fastpum01.forest.usf.edu)
+     (Port = 1521)))
+   (CONNECT_DATA =
+    (Service_name =  EP92U040)))
+HR92U040  =
+(DESCRIPTION=
+(ADDRESS_LIST=
+(ADDRESS=
+(PROTOCOL=TCP)
+(HOST=10.43.62.17)
+(PORT=1521)))
+(CONNECT_DATA=
+(SERVICE_NAME=HR92U040)))
+
+#
+# TPFGCUprodDB07.it.usf.edu FGCU 131.247.220.80
+#
+FGARP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = TPFGCUprodDB07.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGARP)))
+#
+# TPFGCUtestDB07.it.usf.edu FGCU 131.247.220.76
+#
+FGART=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = TPFGCUtestDB07.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGART)))
+#
+# aup-standbydb03.it.usf.edu USF 10.42.16.12
+#
+fastdr=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aup-standbydb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fastdr)))
+#
+# aut-testdb00.it.usf.edu USF 10.41.0.16
+#
+OIDTESTC=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-testdb00.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = OIDTESTC)))
+#
+# claimsmandev.hsc.usf.edu HSC 131.247.65.27
+#
+icipdev=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = claimsmandev.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = icpdev)))
+#
+# claimsmanprd.hscnet.hsc.usf.edu HSC 131.247.65.21
+#
+icp=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = claimsmanprd.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = icp)))
+#
+# claimsmanprod.hscnet.hsc.usf.edu HSC 131.247.70.139
+#
+old_icp=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = claimsmanprod.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = icp)))
+#
+# cldrbcdb02.it.usf.edu USF 131.247.220.107
+#
+GEMSPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = cldrbcdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gemspro)))
+GEMSSESP_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = cldrbcdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = GEMSSESP)))
+gems854=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whproddb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gemspro)))
+#
+# cldrbcdb03.it.usf.edu USF 205.186.58.65
+#
+FASTSESP_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = cldrbcdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fastsesp)))
+#
+# cldrbcproddb11.it.usf.edu USF 205.186.58.70
+#
+PROD_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = cldrbcproddb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PROD)))
+
+
+#
+# clfgcudrbcdb16.it.usf.edu FGCU 205.186.58.72
+#
+FGDGWPRO_STBYCL=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = clfgcudrbcdb16.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGDGWPRO)))
+#
+# clfgcuproddb18.it.usf.edu FGCU 205.186.58.54
+#
+FGPO_STBYCL=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = clfgcuproddb18.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGPO)))
+#
+# clncfproddb20.it.usf.edu NCF 205.186.58.22
+#
+NCPO_STBYCL=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = clncfproddb20.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NCPO)))
+#
+# clunfproddb19.it.usf.edu UNF 205.186.58.53
+#
+NFPO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = clunfproddb19.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFPO)))
+#
+# dbdev1.hscnet.hsc.usf.edu HSC 10.119.38.212
+#
+dwdev=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbdev1.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = dwdev)))
+dwtest_hsc=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbdev1.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = dwtest)))
+#
+# dbdev2.hscnet.hsc.usf.edu HSC 10.119.38.214
+#
+dbdev=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbdev2.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = dbdev)))
+dbprep=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbdev2.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = dbprep)))
+dbtrain=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbdev2.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = dbtrain)))
+#
+# dbdev3.hscnet.hsc.usf.edu HSC 10.119.38.219
+#
+amcasdev=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbdev3.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = amcasdev)))
+#
+# dbdev4.hscnet.hsc.usf.edu HSC 10.119.38.92
+#
+i2b2dev=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbdev4.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = i2b2dev)))
+#
+# dbprod1.hscnet.hsc.usf.edu HSC 131.247.66.120
+#
+dwaudit=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod1.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = dwaudit)))
+dwetlrep=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod1.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = dwetlrep)))
+dwprod=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod1.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = dwprod)))
+dwprod_stby=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = ahp-standbydb01.it.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = dwprod)))
+dwrepo=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod1.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = dwrepo)))
+etlrep=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod1.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = etlrep)))
+#
+# dbprod2.hscnet.hsc.usf.edu HSC 131.247.66.121
+#
+dbafrzn=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod2.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = dbafrzn)))
+#
+# dbprod3.hscnet.hsc.usf.edu HSC 131.247.66.122
+#
+amcas=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod3.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = amcas)))
+dbprod=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod3.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = dbprod)))
+#
+# dbprod4.hscnet.hsc.usf.edu HSC 10.119.38.206
+#
+dbadb=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod4.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = dbadb)))
+emrepos=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod4.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = emrepos)))
+rmandb=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod4.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = rmandb)))
+#
+# dbprod5.hscnet.hsc.usf.edu HSC 131.247.66.157
+#
+i2b2prd=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod5.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = i2b2prd)))
+i2b2stg=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = dbprod5.hscnet.hsc.usf.edu)
+     (PORT = 1522)))
+   (CONNECT_DATA =
+    (SID = i2b2stg)))
+#
+# fgcu-oracle03.noc.fgcu.edu FGCU 172.28.255.21
+#
+RMST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = 172.28.255.21)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = RMST)))
+#
+# fgcu-oracle04.noc.fgcu.edu FGCU 172.28.255.58
+#
+RMSP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = 172.28.255.58)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = RMSP)))
+#
+# fgcu-oracle07.noc.fgcu.edu FGCU 172.28.254.205
+#
+FGCST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = 172.28.254.205)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGCST)))
+#
+# fgcu-oracle08.noc.fgcu.edu FGCU 172.28.254.206
+#
+FGCSP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = 172.28.254.206)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGCSP)))
+#
+# orabldev1.it.usf.edu UNF  131.247.221.51
+#
+NFODST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = orabldev1.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFODST)))
+NFXODS=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = orabldev1.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFXODS)))
+#
+# provatndb-tst.hscnet.hsc.usf.edu HSC 10.119.31.65
+#
+prvtntst=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = provatndb-tst.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = prvtntst)))
+#
+# provatndb.hscnet.hsc.usf.edu HSC 10.119.31.63
+#
+prvtnprd=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = provatndb.hscnet.hsc.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = prvtnprd)))
+#
+# tpdrdb17.it.usf.edu USF 131.247.220.56
+#
+mprod_stby=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdrdb17.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = mprod)))
+#
+# tpdvlpdb04.it.usf.edu USF 131.247.220.70
+#
+TASDVLP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb04.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = TASDVLP)))
+lmsdvlp=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb04.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = lmsdvlp)))
+#
+# tpdvlpdb06.it.usf.edu USF 131.247.220.74
+#
+DWDVLP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DWDVLP)))
+DWDVUPG=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DWDVUPG)))
+REPDEV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = REPDEV)))
+#
+# tpdvlpdb08.it.usf.edu USF 131.247.220.82
+#
+AFMDEV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb08.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = AFMDEV)))
+BACDEV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb08.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = BACDEV)))
+FACDEV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb08.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FACDEV)))
+SPACEDEV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb08.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = spacedev)))
+#
+# tpdvlpdb09.it.usf.edu USF 131.247.220.13
+#
+HITSDEV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb09.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = HITSDEV)))
+RMSDEV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb09.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = RMSDEV)))
+#
+# tpdvlpdb10.it.usf.edu USF 131.247.220.91
+#
+AFTI=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb10.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = AFTI)))
+AFTIB9=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb10.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = AFTIB9)))
+IMGDEV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb10.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = IMGDEV)))
+IMGPPRD=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb10.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = IMGPPRD)))
+#
+# tpdvlpdb14.it.usf.edu USF 131.247.220.52
+#
+IDDVLP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpdvlpdb14.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = iddvlp)))
+#
+# tpdvlprdb11.it.usf.edu USF 131.247.220.22
+#
+DVLPUPG_RO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-banrodb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = DVLPUPG_RO)))
+#
+# tpfgcudvlpdb16.it.usf.edu FGCU 131.247.220.114
+#
+FGDGWTR=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpfgcudvlpdb16.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGDGWTR)))
+FGDGWUP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpfgcudvlpdb16.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGDGWUP)))
+#
+# tpfgcuproddb15.it.usf.edu FGCU 131.247.220.54
+#
+FGODSP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpfgcuproddb15.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGODSP)))
+#
+# tpfgcuproddb16.it.usf.edu FGCU 131.247.220.115
+#
+FGDGWPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpfgcuproddb16.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGDGWPRO)))
+#
+# tpfgcutestdb15.it.usf.edu FGCU 131.247.220.102
+#
+FGODST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpfgcutestdb15.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGODST)))
+FGXODS=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpfgcutestdb15.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGXODS)))
+#
+# tpproddb00.it.usf.edu USF 131.247.181.168
+#
+OIDAPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb00.it.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = OIDAPRO)))
+#
+# tpproddb04.it.usf.edu USF 131.247.220.71
+#
+TASPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb04.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = TASPRO)))
+lmspro=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb04.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = lmspro)))
+#
+# tpproddb05.it.usf.edu USF 131.247.220.9
+#
+DGWPROD=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb05.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DGWPROD)))
+#
+# tpproddb06.it.usf.edu USF 131.247.220.81
+#
+DWHOUSE=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = dwhouse)))
+REPO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = REPO)))
+RMANPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = RMANPRO)))
+#
+# tpproddb08.it.usf.edu USF 131.247.220.83
+#
+AFMPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb08.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = AFMPRO)))
+BACPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb08.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = BACPRO)))
+FACPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb08.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FACPRO)))
+SPACEPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb08.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = spacepro)))
+#
+# tpproddb09.it.usf.edu USF 131.247.220.12
+#
+HITSPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb09.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = HITSPRO)))
+RMSPROD=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb09.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = RMSPROD)))
+#
+# tpproddb10.it.usf.edu USF 131.247.220.14
+#
+ALUM=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb10.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = ALUM)))
+IMGPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb10.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = IMGPRO)))
+#
+# tpproddb14.it.usf.edu USF 131.247.220.53
+#
+IDCD=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tpproddb14.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = IDCD)))
+#
+# aup-banrodb11.it.usf.edu USF 10.43.76.15
+#
+PROD_RO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aup-banrodb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = PROD_RO)))
+#
+# tptestdb00.it.usf.edu USF 131.247.181.167
+#
+OIDTEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb00.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = OIDTEST)))
+#
+# tptestdb04.it.usf.edu USF 131.247.220.69
+#
+TASTEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb04.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = TASTEST)))
+lmstest=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb04.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = lmstest)))
+#
+# tptestdb05.it.usf.edu USF 131.247.220.75
+#
+DGWTEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb05.it.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = DGWTEST)))
+#
+# tptestdb06.it.usf.edu USF 131.247.220.78
+#
+CDIRAC=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = CDIRAC)))
+DWTEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DWTEST)))
+DWUPG=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DWUPG)))
+REPTEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = REPTEST)))
+REPUPG=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = REPUPG)))
+RMANTEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb06.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = RMANTEST)))
+#
+# tptestdb13.it.usf.edu USF 131.247.220.17
+#
+PRODOL=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tptestdb13.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PRODOL)))
+#
+# tptestrdb11.it.usf.edu USF 131.247.220.92
+#
+PPRDUPG_RO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-banrodb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = PPRDUPG_RO)))
+PPRD_RO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-banrodb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = PPRD_RO)))
+#
+# tud-dgwdb05.it.usf.edu USF 131.247.220.84
+#
+DGWDVLP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tud-dgwdb05.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DGWDVLP)))
+DGWDVLPU=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tud-dgwdb05.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DGWDVLPU)))
+#
+# tup-dbgw01.it.usf.edu USF 131.247.220.67
+#
+ALUM_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50010)))
+   (CONNECT_DATA =
+    (SID = ALUM)))
+BACPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50008)))
+   (CONNECT_DATA =
+    (SID = BACPRO)))
+DWHOUSE_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50006)))
+   (CONNECT_DATA =
+    (SID = dwhouse)))
+FGDGWPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50016)))
+   (CONNECT_DATA =
+    (SID = FGDGWPRO)))
+HITSPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50009)))
+   (CONNECT_DATA =
+    (SID = HITSPRO)))
+IMGPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50010)))
+   (CONNECT_DATA =
+    (SID = IMGPRO)))
+LMSPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50004)))
+   (CONNECT_DATA =
+    (SID = lmspro)))
+SPACEPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50008)))
+   (CONNECT_DATA =
+    (SID = spacepro)))
+TASPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tup-dbgw01.it.usf.edu)
+     (PORT = 50004)))
+   (CONNECT_DATA =
+    (SID = TASPRO)))
+#
+# tut-dgwdb05.it.usf.edu USF 131.247.220.125
+#
+DGWTESTU=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = tut-dgwdb05.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DGWTESTU)))
+#
+# unfprodb1.it.usf.edu UNF 131.247.221.60
+#
+NFODSP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = unfprodb1.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFODSP)))
+#
+# usfbanxe.it.usf.edu USF 131.247.220.73
+#
+UBANSE=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = usfbanxe.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = UBANSE)))
+#
+# whdvlpadb11.it.usf.edu USF 131.247.240.33
+#
+DVLPARCH=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-banardb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DVLPARCH)))
+DVLPAU=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = 10.43.64.12)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DVLPAU)))
+#
+# whdvlpdb02.it.usf.edu USF 131.247.240.21
+#
+GEMSDVLP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-gemsdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gemsdvlp)))
+GEMSQA=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-gemsdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gemsqa)))
+GEMSTRNG=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whdvlpdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gemstrng)))
+TURING=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whdvlpdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = TURING)))
+#
+# whdvlpdb11.it.usf.edu USF 131.247.240.31
+#
+PRODT=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whdvlpdb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PRODT)))
+amdvlp=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-bandb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = amdvlp)))
+#
+# whdvlpudb11.it.usf.edu USF 131.247.240.32
+#
+DVLPUPG=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-bandb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = DVLPUPG)))
+amdvlpu=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-bandb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = amdvlpu)))
+#
+# whfgcudvlpdb18.it.usf.edu FGCU 131.247.184.4
+#
+FGDV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whfgcudvlpdb18.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGDV)))
+FGUG=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whfgcudvlpdb18.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGUG)))
+#
+# whfgcuproddb18.it.usf.edu FGCU 131.247.184.6
+#
+FGAMP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whfgcuproddb18.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGAMP)))
+FGPO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whfgcuproddb18.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGPO)))
+#
+# whfgcutestdb18.it.usf.edu FGCU 131.247.184.5
+#
+FGAMT=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whfgcutestdb18.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGAMT)))
+FGPP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whfgcutestdb18.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGPP)))
+FGTR=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whfgcutestdb18.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FGTR)))
+#
+# whncfdvlpdb20.it.usf.edu NCF 131.247.185.4
+#
+NCDV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whncfdvlpdb20.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = NCDV)))
+NCXE=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whncfdvlpdb20.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = NCXE)))
+#
+# whncfproddb20.it.usf.edu NCF 131.247.185.6
+#
+NCPO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whncfproddb20.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = NCPO)))
+NCX2=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whncfproddb20.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = NCX2)))
+#
+# whncftestdb20.it.usf.edu NCF 131.247.185.5
+#
+NCPP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whncftestdb20.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = NCPP)))
+NCTR=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whncftestdb20.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = NCTR)))
+NCXDV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whncftestdb20.it.usf.edu)
+     (PORT = 1525)))
+   (CONNECT_DATA =
+    (SID = NCXDV)))
+#
+# whprodadb11.it.usf.edu USF 131.247.240.35
+#
+PRODARCH=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aup-banardb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PRODARCH)))
+#
+# whproddb00.it.usf.edu USF 131.247.241.92
+#
+OIDBPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whproddb00.it.usf.edu)
+     (PORT = 1521)))
+   (CONNECT_DATA =
+    (SID = OIDBPRO)))
+#
+# whproddb01.it.usf.edu USF 131.247.240.20
+#
+DSOFPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whproddb01.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = dsofpro)))
+DSOHPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whproddb01.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = dsohpro)))
+#
+# whproddb02.it.usf.edu USF 131.247.240.23
+#
+
+GEMSSESP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whproddb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gemssesp)))
+#
+# aup-bandb11.it.usf.edu USF 10.43.76.14
+#
+PROD=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aup-bandb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PROD)))
+amprod=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aup-bandb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = amprod)))
+#
+# whproddb12.it.usf.edu USF 131.247.241.113
+#
+oemprod=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whproddb12.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = oemprod)))
+#
+# whproddb17.it.usf.edu USF 131.247.240.43
+#
+mprod=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whproddb17.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = mprod)))
+#
+# whtestadb11.it.usf.edu USF 131.247.240.34
+#
+PPRDARCH=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-banardb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PPRDARCH)))
+PPRDUPGARCH=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-banardb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PPRDUPGARCH)))
+#
+# whtestdb00.it.usf.edu USF 131.247.241.15
+#
+OIDTESTB=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whtestdb00.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SERVICE_NAME = OIDTESTB)))
+#
+# whtestdb02.it.usf.edu USF 131.247.240.22
+#
+GEMSTEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-gemsdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gemstest)))
+#
+# whtestdb03.it.usf.edu USF 131.247.240.24
+#
+FASTSEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whtestdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fastsest)))
+#
+# aud-bandb11.it.usf.edu
+#
+PPRD=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-bandb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PPRD)))
+amuat=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whtestdb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = amuat)))
+#
+# whtestdb12.it.usf.edu USF 131.247.241.11
+#
+oemtest=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whtestdb12.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = oemtest)))
+#
+# whtestdb17.it.usf.edu USF 131.247.240.42
+#
+mpprd=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whtestdb17.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = mpprd)))
+mpprdold=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whtestdb17.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = mpprdold)))
+#
+# whtestudb11.it.usf.edu USF 131.247.240.36
+#
+PPRDUPG=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-bandb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = PPRDUPG)))
+amuatu=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-bandb11.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = amuatu)))
+#
+# whunfdvlpdb19.it.usf.edu UNF 131.247.184.132
+#
+NFDV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whunfdvlpdb19.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFDV)))
+#
+# whunfproddb19.it.usf.edu UNF 131.247.184.134
+#
+NFAMP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whunfproddb19.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFAMP)))
+NFPO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whunfproddb19.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFPO)))
+#
+# whunftestdb19.it.usf.edu UNF 131.247.184.133
+#
+NFAMT=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whunftestdb19.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFAMT)))
+NFPP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whunftestdb19.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFPP)))
+NFTT=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = whunftestdb19.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = NFTT)))
+#
+# wud-fastdb03.it.usf.edu USF 131.247.240.44
+#
+FAST92DV=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wud-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fast92dv)))
+FASTDVLP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fastdvlp)))
+FASTTRNG=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wud-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fasttrng)))
+fast92ts=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wud-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fast92ts)))
+#
+# wud-gemsdb02.it.usf.edu USF 131.247.240.9
+#
+GEMS92IP=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wud-gemsdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gems92ip)))
+#
+# wup-dbgw03.it.usf.edu USF 131.247.240.13
+#
+FASTPRO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wup-dbgw03.it.usf.edu)
+     (PORT = 50003)))
+   (CONNECT_DATA =
+    (SID = fastpro)))
+FGPO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wup-dbgw03.it.usf.edu)
+     (PORT = 50018)))
+   (CONNECT_DATA =
+    (SID = FGPO)))
+NCPO_STBY=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wup-dbgw03.it.usf.edu)
+     (PORT = 50020)))
+   (CONNECT_DATA =
+    (SID = NCPO)))
+NFPO_STBYAZ=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wup-dbgw03.it.usf.edu)
+     (PORT = 50019)))
+   (CONNECT_DATA =
+    (SID = NFPO)))
+PROD_STBYAZ=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wup-dbgw03.it.usf.edu)
+     (PORT = 50010)))
+   (CONNECT_DATA =
+    (SID = PROD)))
+#
+# wup-fastdb03.it.usf.edu USF 131.247.240.12
+#
+FASTPRO=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aup-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fastpro)))
+#
+# wup-gemsdb02.it.usf.edu USF 131.247.240.46
+#
+gems92ua=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wup-gemsdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gems92ua)))
+#
+# wut-fastdb03.it.usf.edu USF 131.247.240.27
+#
+FASTQA=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aud-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = FASTQA)))
+FASTTEST=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = aut-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fasttest)))
+fast92ua=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wut-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fast92ua)))
+fast92ut=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wut-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fast92ut)))
+fastfix=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wut-fastdb03.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = fastfix)))
+#
+# wut-gemsdb02.it.usf.edu USF 131.247.240.45
+#
+gems92ts=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wut-gemsdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gems92ts)))
+gemsip=
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (HOST = wut-gemsdb02.it.usf.edu)
+     (PORT = 1526)))
+   (CONNECT_DATA =
+    (SID = gemsip)))
+DVLP =
+  (DESCRIPTION =
+   (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = aud-bandb11.it.usf.edu)
+     (Port = 1526)))
+   (CONNECT_DATA =
+    (SID = DVLP)))
+DVLP_RO =
+  (DESCRIPTION =
+  (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = aud-banrodb11.it.usf.edu)
+    (Port = 1526)))
+   (CONNECT_DATA =
+   (SERVICE_NAME = DVLP_RO)))
+MPPRDZ =
+  (DESCRIPTION =
+  (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = ahd-bandb17.it.usf.edu)
+    (Port = 1526)))
+   (CONNECT_DATA =
+   (SID = MPPRDZ)))
+MPRODZ =
+  (DESCRIPTION =
+  (ADDRESS_LIST =
+    (ADDRESS =
+     (PROTOCOL = TCP)
+     (Host = ahp-bandb17.it.usf.edu)
+    (Port = 1526)))
+   (CONNECT_DATA =
+   (SID = MPRODZ)))
+fastqa=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.4)(PORT=1526)))(CONNECT_DATA=(SID=fastqa)))
+DVLPARCHC=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.10)(PORT=1526)))(CONNECT_DATA=(SID=DVLPARCHC))) 
+PPRDARCHC=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.10)(PORT=1526)))(CONNECT_DATA=(SID=PPRDARCHC))) 
+gemsdupgz=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.17)(PORT=1526)))(CONNECT_DATA=(SID=gemsdupgz)))
+IMGDEVZ=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.48.18)(PORT=1526)))(CONNECT_DATA=(SID=IMGDEVZ)))
+PPRDAUZ=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.64.12)(PORT=1526)))(CONNECT_DATA=(SID=PPRDAUZ)))
+EP92U035 = (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.62.8)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=EP92U035)))
+HR92U034 = (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.62.32)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=HR92U034)))
+pprdupgarch=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.64.12)(PORT=1526)))(CONNECT_DATA=(SID=PPRDUPGARCH)))
+dwhtest=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.119.38.212)(PORT=1521)))(CONNECT_DATA=(SID=DWHTEST)))
+dwdev=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.119.38.212)(PORT=1521)))(CONNECT_DATA=(SID=DWDEV)))
+
+
+i2b2dev=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.119.38.92)(PORT=1522)))(CONNECT_DATA=(SID=I2B2DEV)))
+i2b2stg=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=131.247.66.157)(PORT=1522)))(CONNECT_DATA=(SID=I2B2STG)))
+I2B2PRD=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=131.247.66.157)(PORT=1522)))(CONNECT_DATA=(SID=I2B2PRD)))
+fgdgwproz = (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.76.27)(PORT=1526)))(CONNECT_DATA=(SID=fgdgwproz)))
+gemsua = (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.43.64.9)(PORT=1526)))(CONNECT_DATA=(SERVICE_NAME=gemsua)))
+
